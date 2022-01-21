@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "411819301438",
+    "project_id": "sporthecadevweek",
+    "storage_bucket": "sporthecadevweek.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411819301438:android:04c9965f82a76c2e8dcf6f",
+        "android_client_info": {
+          "package_name": "com.fgomes.sporthecadevweek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411819301438-d1o5b0rjtkn09931100m5ptefgthmq2t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeTDoop_hwkCcMvgyhu3s4sb6vRFh5Fs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411819301438-d1o5b0rjtkn09931100m5ptefgthmq2t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
