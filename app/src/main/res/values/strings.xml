@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Sportheca Dev Week</string>
+
+    <string name="placar_time_casa">0</string>
+    <string name="placar_time_fora">0</string>
+    <string name="error_api">Erro inesperado.</string>
 </resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_default"
+    app:cardElevation="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivHomeTeam"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="@dimen/margin_default"
+            android:layout_marginTop="@dimen/margin_default"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvHomeTeamName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_default"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/ivHomeTeam"
+            app:layout_constraintStart_toStartOf="@+id/ivHomeTeam"
+            app:layout_constraintTop_toBottomOf="@id/ivHomeTeam"
+            tools:text="Time 1" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvHomeTeamScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_default"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toBottomOf="@id/x"
+            app:layout_constraintEnd_toStartOf="@id/x"
+            app:layout_constraintTop_toTopOf="@id/x"
+            tools:text="@string/placar_time_casa" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toBottomOf="@id/ivHomeTeam"
+            app:layout_constraintEnd_toEndOf="@id/ivAwayTeam"
+            app:layout_constraintStart_toStartOf="@id/ivHomeTeam"
+            app:layout_constraintTop_toTopOf="@id/ivHomeTeam" />
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvAwayTeamScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_default"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toBottomOf="@id/x"
+            app:layout_constraintStart_toEndOf="@id/x"
+            app:layout_constraintTop_toTopOf="@id/x"
+            tools:text="@string/placar_time_fora" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivAwayTeam"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="@dimen/margin_default"
+            android:layout_marginEnd="@dimen/margin_default"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvAwayTeamName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_default"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/ivAwayTeam"
+            app:layout_constraintStart_toStartOf="@+id/ivAwayTeam"
+            app:layout_constraintTop_toBottomOf="@id/ivAwayTeam"
+            tools:text="awayteam" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

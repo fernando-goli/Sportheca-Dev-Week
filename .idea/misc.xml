@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Fernando/AndroidStudioProjects/SporthecaDevWeek/app/src/main/res/layout/activity_main.xml" value="0.20652173913043478" />
+        <entry key="..\:/Users/Fernando/AndroidStudioProjects/SporthecaDevWeek/app/src/main/res/layout/activity_detail.xml" value="0.26875" />
+        <entry key="..\:/Users/Fernando/AndroidStudioProjects/SporthecaDevWeek/app/src/main/res/layout/activity_main.xml" value="0.26875" />
+        <entry key="..\:/Users/Fernando/AndroidStudioProjects/SporthecaDevWeek/app/src/main/res/layout/match_item.xml" value="0.33" />
         <entry key="..\:/Users/Fernando/AndroidStudioProjects/SporthecaDevWeek/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.28489583333333335" />
       </map>
     </option>
@@ -13,5 +15,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
   </component>
 </project>
